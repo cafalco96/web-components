@@ -13,15 +13,7 @@ class Porcentajes extends HTMLElement {
     }
   }
   connectedCallback() {
-    this.innerHTML = `
-    <h1>Resultado Encuesta</h1>
-    <div class="signal-bars">
-    <div class="bar bar-25"></div>
-    <div class="bar bar-50"></div>
-    <div class="bar bar-75"></div>
-    <div class="bar bar-100"></div>
-</div>
-     `;
+    
     this.bars = this.querySelectorAll(".bar");
     this.actualizarColores();
   }
