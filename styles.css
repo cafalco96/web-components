@@ -1,0 +1,27 @@
+.signal-bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.bar {
+  width: 20px;
+  height: 40px;
+  background-color: #ccc;
+}
+
+.bar-25 {
+  height: 10px;
+}
+
+.bar-50 {
+  height: 20px;
+}
+
+.bar-75 {
+  height: 30px;
+}
+
+.bar-100 {
+  height: 40px;
+}
